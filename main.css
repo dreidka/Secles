@@ -1,47 +1,49 @@
+body{
+   background-color: #ec1424;
+   font-family: Helvetica;
+}
+
+#encabezado{
+   color:White;
+    background-color:#bf212c;
+    padding:1rem;
+}
+
 #lista{
 	background-color: #bf212c;
 	float: left;
-	height:1150px;
-    padding:20px;
-    width :150px;
-    border: 1px purple;
+	height:85rem;
+   padding:2rem;
+   width :9rem;
+   border: 1rem;
 }
-body{
-	background-color: #ec1424;
-	font-family: Helvetica;
-}
-#encabezado{
-	color:White;
-    background-color:#bf212c;
-    padding:1px;
-}
-.menu2{
+
+#menu2{
 	background-color: #bf212c;
 	float: right;
-	height:1020px;
-    padding:20px;
-    width :150px;
+	height:75rem;
+   padding:2rem;
+   width :9rem;
+   border: 1rem;
 }
-.vela1{
-	align="right"; 
-    width="10";
-    height="10";
-    border="5";
-}
-#vela2{
-	align ="right"; 
-    width="20";
-    height="20";
-    border="5";
-}
-h2{
+
+.article-h2-titulo_mision{
 	text-align: center;
 }
-h3{
+.section-p-h3-mision{
 	text-align: center;
 
 }
 
+.section-p-h2-titulo_vision{
+   text-align: center;
+}
+.section-p-h3-vision{
+   text-align: center;
+
+}
+
+/*Estilo de pagina de productos*/
 
 #Productos{
 	background-color: #dcd4fc;
@@ -72,4 +74,7 @@ h3{
  h1{
  	text-align: center;
 
+ }
+ #video-presentacion{
+   text-align: center;
  }
