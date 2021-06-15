@@ -1,30 +1,14 @@
 body{
-   background-color: #ec1424;
+   background-image: url(https://c.wallhere.com/photos/13/60/1389x946_px_anime_landscape-796102.jpg!d);
+   background-repeat:no-repeat ;
+   background-attachment: fixed;
    font-family: Helvetica;
 }
 
 #encabezado{
    color:White;
-    background-color:#bf212c;
+    background: linear-gradient(#587ab0, white);
     padding:1rem;
-}
-
-#lista{
-	background-color: #bf212c;
-	float: left;
-	height:85rem;
-   padding:2rem;
-   width :9rem;
-   border: 1rem;
-}
-
-#menu2{
-	background-color: #bf212c;
-	float: right;
-	height:75rem;
-   padding:2rem;
-   width :9rem;
-   border: 1rem;
 }
 
 .article-h2-titulo_mision{
