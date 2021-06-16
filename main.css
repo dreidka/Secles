@@ -26,39 +26,24 @@ body{
    text-align: center;
 
 }
-
-/*Estilo de pagina de productos*/
-
-#Productos{
-	background-color: #dcd4fc;
-	font-family: Helvetica
-}
-
-#menu-productos{
-	background-color: #b3abd1;
-    float: left;
-    height:1150px;
-    padding:20px;
-    width :150px;
-}
-#cabecera-productos{
-	  #cabecera 
-    color:White;
-    background-color:#b3abd1;
-    padding:10px;
-  }
-
- #menu2-productos{
- 	background-color: #b3abd1;
-    float: right;
-    height:1020px;
-    padding:20px;
-    width :150px;
+ #imagen_vela1{
+   width: 21rem;
+   height: 21rem;
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
  }
- h1{
- 	text-align: center;
-
+ #imagen_vela2{
+   width: 21rem;
+   height: 21rem;
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
  }
- #video-presentacion{
+
+
+  #video-presentacion{
    text-align: center;
  }
+
+
