@@ -1,0 +1,49 @@
+body{
+	background-image: url(https://images5.alphacoders.com/101/thumb-1920-1013379.jpg);
+	background-repeat:no-repeat ;
+   	background-attachment: fixed;
+   	background-size: cover;
+   	font-family: Helvetica;
+}
+#Arturo{
+	width: 10em;
+	height: 10em;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+#Suarez{
+	width: 10em;
+	height: 10em;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+#Godoy{
+	width: 10em;
+	height: 10em;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+#Felipe{
+	width: 10em;
+	height: 10em;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+#encabezado{
+	background: linear-gradient(#a68cf5,white);
+	text-align: center;
+	padding:1rem;
+
+}
+img{
+	align-items: center;
+	margin: auto;
+}
+h4{
+	text-align: center;
+}
