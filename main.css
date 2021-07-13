@@ -39,11 +39,25 @@ body{
    border-width: 2px;
    border-style: solid;
    border-color: black;
+   float: right;
  }
 
 
   #video-presentacion{
    text-align: center;
  }
+
+
+#logo{
+   width: 21rem;
+   height: 21rem;
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
+   display:block;
+   margin:auto;
+}
+
+	  
 
 
