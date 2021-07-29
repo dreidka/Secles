@@ -3,12 +3,17 @@ body{
    background-repeat:no-repeat ;
    background-attachment: fixed;
    font-family: Helvetica;
+   margin: 0;
+}
+a{
+   text-decoration-line: none;
+   text-decoration-color: black;
 }
 
 #encabezado{
    color:White;
-    background: linear-gradient(#587ab0, white);
-    padding:1rem;
+   background: linear-gradient(#587ab0, white);
+   padding:1rem;
 }
 
 .article-h2-titulo_mision{
@@ -57,3 +62,6 @@ body{
    display:block;
    margin:auto;
 }
+
+	  
+
