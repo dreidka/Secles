@@ -1,3 +1,4 @@
+
 body{
    background-image: url(https://c.wallhere.com/photos/13/60/1389x946_px_anime_landscape-796102.jpg!d);
    background-repeat:no-repeat ;
@@ -46,7 +47,9 @@ a{
    border-color: black;
    float: right;
  }
-
+.revista{
+   text-align: center;
+}
 
   #video-presentacion{
    text-align: center;
@@ -62,6 +65,3 @@ a{
    display:block;
    margin:auto;
 }
-
-	  
-
