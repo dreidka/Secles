@@ -4,9 +4,16 @@ body{
    background-attachment: fixed;
    background-size: cover;
    font-family: Helvetica;
+   margin: 0;
 }
-.cabecera{
+a{
+	text-decoration: none;
+	text-decoration-color: black;
+}
+#encabezado{
 	background: linear-gradient(#faccfc,white);
-	text-align: center;
 	padding:1rem;
+}
+h1{
+	text-align: center;
 }
