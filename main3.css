@@ -4,6 +4,11 @@ body{
    	background-attachment: fixed;
    	background-size: cover;
    	font-family: Helvetica;
+   	margin: 0;
+}
+a{
+	text-decoration: none;
+	text-decoration-color: black;
 }
 #Arturo{
 	width: 10em;
@@ -36,9 +41,10 @@ body{
 }
 #encabezado{
 	background: linear-gradient(#a68cf5,white);
-	text-align: center;
 	padding:1rem;
-
+}
+h1{
+	text-align: center;
 }
 img{
 	align-items: center;
