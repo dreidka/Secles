@@ -9,3 +9,17 @@ body{
 	background:  linear-gradient(#9cf595, white);
 	padding: 1em;
 }
+#pausas{
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+#pausas2{
+	text-align: center;
+	margin: auto;
+	display: block;
+	padding-bottom: 10px;
+}
+a{
+	text-align: center;
+}
