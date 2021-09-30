@@ -17,3 +17,10 @@ a{
 h1{
 	text-align: center;
 }
+#vela{
+	width: 15rem;
+	height: 15rem;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #5f6678;
+}
