@@ -1,5 +1,5 @@
 body{
-	background-image: url(https://images5.alphacoders.com/101/thumb-1920-1013379.jpg);
+	background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NCAgIDQ0ICA0HBw0HBwcHBw8IDQcNFREWFhURExMYHSggGBoxGxUfITEhMSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NDzcZFRkrKy0tNysrKzctKy0rLSsrKystNysrNy0tLSsrKysrKysrNysrKysrKysrLSsrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAgADBQT/xAAXEAEBAQEAAAAAAAAAAAAAAAAAARES/8QAGgEBAQEBAQEBAAAAAAAAAAAAAQIABQQDBv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A8ZgX7p+OZmZmYhmYsCzMQzMWZmYsCCxDBizMCWDJUWDJVIQwTVQjRoSuQ2pta1NoXGtTabU2hcjVNrWptSuHRo0aysVo0a2gvpKWe9yVMCzMzM2sWBZiwZmLMzMWBBLBgSwYHCwbUqkOsAlUhGjW1KpDqda1NoXIbU2tam0LkNqLWtTaFyNaLRam0LkOtqNbQpetqNbWOPrOpZ7HIxWnU6x1laU62sym1OltZTaktrKZJBwlJ0MW0MDhYMNVhYDUqkOtoGhch0aLRalUjWi0WptC5Dam1rU2hcjWptFqbWXI1otTam0LkVo1No1lYvTrnraDj79Oo069bj4rTqNOlsVranTrNitOo1tZsXranTobFaydOscU2p1gcVpTrA4rQNbUqkOtqdbQqQ6NGjUrkNqbRaLQuQ2ptFqbQuQ2ota1FrLkNqLWtRay5Dam0WotZUitHSLRrKx01tc9bQcenKdc9Mr1OPi9Oo1tYYttTraxxenUa2s2L1tRp0Ni9Oo1tBxetqdbQcXranW0KxWtqdGpVIrRo0aFSHRaLRaFyG1NotFoVI1qbRam1lyG1FrWotZchtRa1qLWXI1qbRai1lSKtGo0aysXp1z1tY49SU656ZXpcfHTTrnp0DF62p1tZsXrajToOL0656dY4vTqNbQcXp1GtqTi9bU62hWK1tTraDIdbU6NC5Fam0WptCpFWptFqbQuQ2ota1FrLkNqLWtRaypGtRa1qLSuQ2otFqbSqQ2i1NqdYr1tc9bWL1ZVSuUqpXocnHTTrnp0DHTW1GnQ2L1tRp0HF62o06xxetqNOpOL0656dBxetqNbQrF62o1tCpFa2o1tCpDaLU2i0KkNqbRam1lyG1FrWotZUhtRa1qLSqRrUWtai1lSNam1rUWqUbU6LU2scVrajW1i9WVUrlKuV93Kx0lOucp0DF6dRraDi9Oo06GxetqNOhWL1tRp1JxetqNOg4vW1GtoVi9Gp1tCsVo1OjQZFam0Wi0Lka0Wi1NrGRrU2i1NpXI1qLTai0qxrUWtai0lrUWm1FpU1qda1NpJ1tTo0s9aVUqIY+rmY6SnXOUyhsdNbU62pbF62p06DitOo0gyK06jTqTitOo06FYrW1OtoVIrRoGg4q0aNGhUh1NotFrKxrU2tam1jI1qbRam0qxrUWm1FpItTa1qbVKFqbWtTaS1qbWtTaS1rAaWevCkx9HNVplSZQ2L06gpbFHUnUqxTBgcVrBtScU2htCsOtoZJwhhrKwjQLQca0WtU0qxrU2tU2sRam1rU1Sham02otJFqbWtTaSLU2tam1Ra0Wsm0s1o1gS9gwFbmkpIKikpZUKSkq1gUqhYFJLBgqFmAJDAKYVhWLVNNTWIqbTUUqFqbTUVRFRVVFMIqKqoqiKmmppYVNNBLAAs9tmZbmkswpJZksyozJqjGZkkmMyVMzMkszMFMKzMQGZlJqaWYoqazEpqKzKKKmsyiipoYlKazKZNDMSKGYs//9k=);
 	background-repeat:no-repeat ;
    	background-attachment: fixed;
    	background-size: cover;
@@ -40,7 +40,7 @@ a{
 	margin: 0 auto;
 }
 #encabezado{
-	background: linear-gradient(#a68cf5,white);
+	background: linear-gradient(#4242d4,white);
 	padding:1rem;
 }
 h1{
@@ -50,6 +50,51 @@ img{
 	align-items: center;
 	margin: auto;
 }
-h4{
+#nombres{
 	text-align: center;
 }
+#analisis{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 5em;
+}
+h5{
+	text-align: center;
+}
+#input{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 5em;
+	padding-right: 5em;
+	text-align: center;
+}
+#Send-button{
+	border-radius: 4em;
+	width: 10em;
+	height: 4em;
+	background-color: transparent;
+	font-family:"Libre Baskerville";
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+}
+button{
+	border-radius: 4em;
+	width: 10em;
+	height: 4em;
+	background-color:cadetblue;
+	font-family:"Libre Baskerville";
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+}
+#logo{
+	width: 41rem;
+	height: 21rem;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	display:block;
+	margin:auto;
+ }
