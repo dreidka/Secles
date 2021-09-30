@@ -16,30 +16,63 @@
     </script>
   </head>
   <body>
-    <div id="encabezado">
-        <h1><p><center>Secles</center></p></h1>
+     <div id="encabezado">
+      	<h1><p><center>Secles</center></p></h1>
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="Productos.html">Productos</a></li>
-          <li><a href="Secles.html">Contactos</a></li>
-          <li><a href="Bienestar-social-laboral.html">Bienestar social laboral</a></li>
+          <li><img src="Imagenes\home.png"><a href="index.html">&nbsp; Inicio</a></li>
+          <li><img src="Imagenes\candle.png"><a href="Productos.html">&nbsp; Productos</a></li>
+          <li><img src="Imagenes\messaging.png"><a href="Secles.html">&nbsp; Contactos</a></li>
+          <li><img src="Imagenes\pilates.png"><a href="Bienestar-social-laboral.html">&nbsp; Bienestar social laboral</a></li>
         </ul>
       </div>
 <hr>
     <img id="Arturo" src="Imagenes\Arturo.jpeg">
     <br>
-    <h4>Arturo Romero Kekhan</h4>
+    <h4 id="nombres">Arturo Romero Kekhan</h4>
     <img id="Suarez" src="Imagenes\Suarez.jpeg">
-    <h4>Nicolas Suarez Farieta</h4>
+    <h4 id="nombres">Nicolas Suarez Farieta</h4>
     <br>
     <img id="Godoy" src="Imagenes\Godoy.jpeg">
-    <h4>David Esteban Godoy</h4>  
+    <h4 id="nombres">David Esteban Godoy</h4>  
     <img id="Felipe" src="Imagenes\Felipe.jpeg">
-    <h4>Andres Felipe Rincon</h4>
+    <h4 id="nombres">Andres Felipe Rincon</h4>
     <br>
     <br>
-    <img id="analisis"src="Imagenes\analisis.jpg">
+    <img id="analisis"src="Imagenes\analisis2.jpg">
+    <h5>Email:seclesempresa@gmail.com</h5>
+    <form enctype="text/plain" action="mailto:seclesempresa@gmail.com" method="post">
+      <div id="input">
+        <input type="text" name="your name"><h4>Escribe tu nombre</h4>
+        <br>
+        <input type="email" name="email"><h4>Escribe tu email</h4>
+        <br>
+        <br>
+        <select name="edad">
+          <option value="1">0-10</option>
+          <option value="2">11-20</option>
+          <option value="3">21-30</option>
+          <option value="4">31-40</option>
+          <option value="5">41-50</option>
+          <option value="6">51-60</option>
+          <option value="7">61-70</option>
+          <option value="8">71-mas</option>
+        </select>
+        <h4> En que rango se encuentra tu edad</h4>
+        <br>
+        <br>
+        <br>
+        
+        <textarea name="opinion">Escribe tu opinion</textarea>
+        <br>
+        <br>
+      </div>
+      <div id="Send-button">
+	      <button>Enviar</button>
+      </div>
+    </form>
+    <img id="logo" src="Imagenes\logo1.jpg">
   </body>
 
 </html>
+
 
