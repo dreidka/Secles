@@ -1,9 +1,14 @@
 body{
-	background-image: url(https://cdnb.artstation.com/p/assets/images/images/030/008/147/medium/riko-vladimir-ghib4.jpg?1599313264);
+	background-image: url(https://images4.alphacoders.com/236/thumb-1920-236746.jpg);
 	background-repeat:no-repeat;
    	background-attachment: fixed;
+   	background-size: cover;
    	font-family: Helvetica;
    	margin: 0;
+}
+a{
+	text-decoration: none;
+	text-decoration-color: black;
 }
 #encabezado{
 	background:  linear-gradient(#9cf595, white);
@@ -20,6 +25,8 @@ body{
 	display: block;
 	padding-bottom: 10px;
 }
-a{
+#link_pausas{
 	text-align: center;
+	color: beige;
+	text-decoration-line: none;
 }
