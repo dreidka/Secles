@@ -1,0 +1,48 @@
+
+body{
+   background-image: url(https://funci.org/wp-content/uploads/2009/04/don_quijote-1024x768.jpg);
+   background-repeat:no-repeat ;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: Helvetica;
+   margin: 0;
+}
+a{
+   text-decoration-line: none;
+   text-decoration-color: black;
+}
+
+#encabezado{
+   color:White;
+   background: linear-gradient(#c4cf34, white);
+   padding:1rem;
+}
+
+#vela{
+	width: 30rem;
+	height: 30rem;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #5f6678;
+	margin-left: 10px;
+	text-align: left;
+	float: left;
+}
+
+#titulo{
+	color: black;
+	text-align: right;
+}
+
+.mensaje{
+	color: #e67417;
+	text-align: center;
+}
+
+button{
+	border-radius: 4em;
+	width: 10em;
+	height: 4em;
+	background-color:;
+	font-family:"Libre Baskerville";
+}
