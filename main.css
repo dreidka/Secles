@@ -1,8 +1,9 @@
 
 body{
-   background-image: url(https://c.wallhere.com/photos/13/60/1389x946_px_anime_landscape-796102.jpg!d);
+   background-image: url(https://p4.wallpaperbetter.com/wallpaper/756/935/826/5bd2e471044fa-wallpaper-preview.jpg);
    background-repeat:no-repeat ;
    background-attachment: fixed;
+   background-size: cover;
    font-family: Helvetica;
    margin: 0;
 }
@@ -13,23 +14,27 @@ a{
 
 #encabezado{
    color:White;
-   background: linear-gradient(#587ab0, white);
+   background: linear-gradient(black, white);
    padding:1rem;
 }
 
 .article-h2-titulo_mision{
 	text-align: center;
+   color: gray;
 }
 .section-p-h3-mision{
 	text-align: center;
+   color: white;
 
 }
 
 .section-p-h2-titulo_vision{
    text-align: center;
+   color: gray;
 }
 .section-p-h3-vision{
    text-align: center;
+   color: white;
 
 }
  #imagen_vela1{
@@ -57,11 +62,15 @@ a{
 
 
 #logo{
-   width: 21rem;
+   width: 41rem;
    height: 21rem;
    border-width: 2px;
    border-style: solid;
    border-color: black;
    display:block;
    margin:auto;
+}
+h5{
+   color: beige;
+   text-align: center;
 }
