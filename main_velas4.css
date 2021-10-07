@@ -6,6 +6,8 @@ body{
    background-size: cover;
    font-family: Helvetica;
    margin: 0;
+   flex-wrap: wrap;
+
 }
 a{
    text-decoration-line: none;
@@ -43,6 +45,6 @@ button{
 	border-radius: 4em;
 	width: 10em;
 	height: 4em;
-	background-color:;
+	background-color:#ffc457;
 	font-family:"Libre Baskerville";
 }
